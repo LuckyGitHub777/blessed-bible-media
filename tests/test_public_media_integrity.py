@@ -97,14 +97,14 @@ class PublicMediaStructure(unittest.TestCase):
         for marker in (0xE1, 0xED, 0xFE):
             synthetic = (
                 b"\xff\xd8" + bytes((0xFF, marker, 0, 4)) +
-                b"AB" + b"\xff\xda\x00\\x02" + b"\x00\\xff\xd9"
+                b"AB" + b"\xff\xda\x00\x02" + b"\x00\xff\xd9"
             )
             with self.subTest(marker=marker):
                 self.assertIn(marker, list(jpeg_header_markers(synthetic)))
 
     def test_truncated_jpeg_metadata_segment_is_rejected(self):
         with self.assertRaises(ValueError):
-            list(jpeg_header_markers(b"\xff\xd8\\xff\xe1\x00\x12AB\\xff\xd9"))
+            list(jpeg_header_markers(b"\xff\xd8\xff\xe1\x00\x12AB\xff\xd9"))
 
     def test_source_boundary_has_explicit_support_documentation(self):
         self.assertTrue((ROOT / "README.md").is_file())
