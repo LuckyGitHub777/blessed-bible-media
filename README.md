@@ -10,10 +10,7 @@
 
 A quiet collection of faith-inspired images and visual reflections. Browse the artwork at your own pace.
 
-| Image posts | Visual stories |
-| --- | --- |
-| [October 2026](posts/2026/10) | [October 2026](stories/2026/10) |
-| [November 2026](posts/2026/11) | [November 2026](stories/2026/11) |
+Browse [image posts](posts/) or [visual stories](stories/).
 
 This is a simple public image archive. The artwork is available to view here without a separate app, account, or subscription. Public availability does not automatically grant permission to reproduce or redistribute the images.
 
