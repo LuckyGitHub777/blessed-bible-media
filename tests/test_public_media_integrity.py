@@ -117,7 +117,7 @@ class PublicMediaStructure(unittest.TestCase):
         self.assertTrue(gallery_path.is_file())
         gallery = gallery_path.read_text(encoding="utf-8")
         tiles = re.findall(
-            r"\\[!\\[[^\\]]+\\]\\(([^)]+)\\)\\]\\(([^)]+)\\)",
+            r"\[!\[[^\]]+\]\(([^)]+)\)\]\(([^)]+)\)",
             gallery,
         )
         self.assertGreaterEqual(len(tiles), 60)
