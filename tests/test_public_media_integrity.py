@@ -111,5 +111,28 @@ class PublicMediaStructure(unittest.TestCase):
         self.assertTrue((ROOT / "SECURITY.md").is_file())
 
 
+    def test_visual_gallery_references_only_existing_public_images(self):
+        """Every displayed archive tile must point to the existing local image."""
+        gallery_path = ROOT / "GALLERY.md"
+        self.assertTrue(gallery_path.is_file())
+        gallery = gallery_path.read_text(encoding="utf-8")
+        tiles = re.findall(
+            r"\\[!\\[[^\\]]+\\]\\(([^)]+)\\)\\]\\(([^)]+)\\)",
+            gallery,
+        )
+        self.assertGreaterEqual(len(tiles), 60)
+        seen = set()
+        for preview, original in tiles:
+            self.assertEqual(preview, original)
+            self.assertTrue(PATH_PATTERN.fullmatch(preview), preview)
+            self.assertTrue((ROOT / preview).is_file(), preview)
+            self.assertNotIn(preview, seen, "Duplicate gallery tile: " + preview)
+            seen.add(preview)
+
+    def test_collection_readme_opens_the_gallery(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn("[Open the visual archive](GALLERY.md)", readme)
+
+
 if __name__ == "__main__":
     unittest.main()
