@@ -26,4 +26,5 @@ This is a simple public image archive. The artwork is available to view here wit
 ## Continue exploring
 
 - [The Mysteries of Eleusis](https://github.com/LuckyGitHub777/mysteries-of-eleusis) — a gentle interactive exploration of myth and history.
+- [Signal Archive](https://github.com/LuckyGitHub777/project-blue-box-signal-archive) — a separate original fictional artwork available for offline exploration.
 - [Browse the other public projects](https://github.com/LuckyGitHub777?tab=repositories) — more creative experiments and useful little tools.
