@@ -22,9 +22,3 @@ A glimpse of the existing collection. Select an image to view the original.
 | [![Image post — November 4, 2026](posts/2026/11/2026-11-04-f17b5e6effd9.jpg)](posts/2026/11/2026-11-04-f17b5e6effd9.jpg) | [![Visual story — November 4, 2026](stories/2026/11/2026-11-04-cf4708445ba3.jpg)](stories/2026/11/2026-11-04-cf4708445ba3.jpg) |
 
 This is a simple public image archive. The artwork is available to view here without a separate app, account, or subscription. Public availability does not automatically grant permission to reproduce or redistribute the images.
-
-## Continue exploring
-
-- [The Mysteries of Eleusis](https://github.com/LuckyGitHub777/mysteries-of-eleusis) — a gentle interactive exploration of myth and history.
-- [Signal Archive](https://github.com/LuckyGitHub777/project-blue-box-signal-archive) — a separate original fictional artwork available for offline exploration.
-- [Browse the other public projects](https://github.com/LuckyGitHub777?tab=repositories) — more creative experiments and useful little tools.
