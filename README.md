@@ -10,7 +10,7 @@
 
 A quiet collection of faith-inspired images and visual reflections. Browse the artwork at your own pace.
 
-**[Explore the online visual collection](https://luckygithub777.github.io/blessed-bible-media/)** in your browser, or [open the source gallery](GALLERY.md) to browse the existing image posts and visual stories. You can also browse the [image posts](posts/) or [visual stories](stories/) folders directly.
+**[Explore the online visual collection](https://luckygithub777.github.io/blessed-bible-media/)** in your browser, or [Open the visual archive](GALLERY.md) to browse the existing image posts and visual stories. You can also browse the [image posts](posts/) or [visual stories](stories/) folders directly.
 
 ### Recent public pieces
 
