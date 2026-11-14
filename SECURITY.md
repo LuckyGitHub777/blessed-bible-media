@@ -4,7 +4,7 @@
 
 This public repository distributes publishable media and verification metadata. It is not a secure channel for credentials, internal operational records, or account recovery material.
 
-Reports about published personal data, image metadata, license mistakes or asset integrity are in scope. Never include private publishing tokens or publication receipts in reports.
+Reports about published personal data, image metadata, license mistakes or asset integrity are in scope. Never include credentials or sensitive evidence in public reports.
 
 ## Responsible reporting
 
